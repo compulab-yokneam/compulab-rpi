@@ -11,4 +11,7 @@
   <remote fetch="https://github.com/agherzan" name="rpi"/>
   <project remote="rpi" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
 
+  <remote fetch="https://github.com/compulab-yokneam" name="compulab"/>
+  <project remote="compulab" name="compulab-bsp-base" path="sources/base"/>
+
 </manifest>
