@@ -1,17 +1,17 @@
 <manifest>
 
-  <default sync-j="4" revision="master"/>
+  <default sync-j="4"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="05c32d2de1ee4681cc78cb107a158e9ab22c9619" name="poky" path="sources/poky"/>
 
   <remote fetch="git://git.openembedded.org" name="oe"/>
-  <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="oe" revision="6a0efef15cd625d4fb4f60e2235450de0222c357" name="meta-openembedded" path="sources/meta-openembedded"/>
 
   <remote fetch="https://github.com/agherzan" name="rpi"/>
-  <project remote="rpi" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  <project remote="rpi" revision="6888a49ae84445136d138087290efcf6793c4149" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
 
   <remote fetch="https://github.com/compulab-yokneam" name="compulab"/>
-  <project remote="compulab" name="compulab-bsp-base" path="sources/base"/>
+  <project remote="compulab" revision="e3e280b26257854b5754e66a0dcbc2bb2c2ce6a9" name="compulab-bsp-base" path="sources/base"/>
 
 </manifest>
