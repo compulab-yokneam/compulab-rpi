@@ -1,1 +1,9 @@
 # compulab-rpi
+
+## How To Get Started
+
+[source,console]
+repo init -u https://github.com/compulab-yokneam/compulab-rpi.git
+repo sync
+source sources/base/rpi-build-env rpi-build
+bitbake core-image-base
