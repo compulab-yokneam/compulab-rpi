@@ -5,9 +5,12 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <project remote="yocto" revision="mickledore" name="poky" path="sources/poky"/>
 
-  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="https://git.openembedded.org/openembedded" name="oe"/>
   <project remote="oe" revision="mickledore" name="meta-openembedded" path="sources/meta-openembedded"/>
 
+  <remote fetch="https://git.yoctoproject.org/meta-raspberrypi" name="rpi"/>
+  <project remote="rpi" revision="mickledore" name="meta-raspberrypi" path="sources/meta-raspberrypi"/>
+  
   <remote fetch="https://github.com/compulab-yokneam" name="compulab"/>
   <project remote="compulab" revision="mickledore" name="compulab-bsp-base" path="sources/base"/>
 
